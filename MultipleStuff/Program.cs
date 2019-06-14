@@ -10,7 +10,6 @@ namespace MultipleStuff
             SuperList.MinMax2 MM2Struct;
             Tuple<double, double> MM3Tuple;
 
-            Console.WriteLine("Hello World!");
             SuperList lst = new SuperList() { 12.3, 1.0, 0.4, 16, 92 };
             
             lst.GetMinMax1(out min1, out max1);
